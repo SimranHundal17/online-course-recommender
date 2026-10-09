@@ -188,9 +188,11 @@ http://localhost:8501
 
 ## Installation
 
-Create and activate a virtual environment, then install dependencies:
+Requires Python 3.9+. From the repository root, create and activate a virtual environment, then install dependencies:
 
 ```bash
+python -m venv .venv
+# Windows: .venv\Scripts\activate    macOS/Linux: source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
